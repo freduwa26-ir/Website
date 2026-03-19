@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+  
+  --color-cafe-brown: #8B5E3C;
+  --color-cafe-cream: #F5E6D3;
+  --color-cafe-dark: #2C1B10;
+  --color-cafe-accent: #D4A373;
+}
+
+@layer base {
+  body {
+    @apply bg-cafe-cream text-cafe-dark font-sans;
+  }
+}
+
+.glass-card {
+  @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-lg;
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Warm Café",
+  "description": "A cozy, welcoming café website featuring a menu, reservations, and location information.",
+  "requestFramePermissions": ["geolocation"]
+}
